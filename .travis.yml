@@ -8,7 +8,7 @@ install: go get -v github.com/gohugoio/hugo
 cache:
     directories:
         - $HOME/.cache/go-build
-        - $HOME/gopath/pkg/mod
+        - $HOME/gopath
 script:
     - hugo
 deploy:
