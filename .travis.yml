@@ -15,6 +15,7 @@ deploy:
         branch: master
     local_dir: public
     repo: dai-pch/dai-pch.github.io
+    fqdn: bolg.daipch.cn
     target_branch: master
     keep_history: true
     email: dpc_work@163.com
