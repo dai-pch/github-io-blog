@@ -15,6 +15,8 @@ fi
 
 echo $msg
 
-# git commit -m "$msg"
-# git push origin master
+git commit -m "$msg"
+if [ $? -eq 0 ]; then
+    git push origin master
+fi
 
