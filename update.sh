@@ -10,7 +10,7 @@ else
     cd content
     git pull
     cd ..  
-    git add .
+    git add content
 fi
 
 echo $msg
