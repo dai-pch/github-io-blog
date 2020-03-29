@@ -1,8 +1,8 @@
-baseURL = "https://dai-pch.github.io"
+baseURL = "https://blog.daipch.cn"
 languageCode = "zh-CN"
 title = "博客名待定"
 theme = "maupassant"
-googleAnalytics = ""  # UA-XXXXXXXX-X
+googleAnalytics = "UA-162149996-2"  # UA-XXXXXXXX-X
 
 ## 保持分类的原始名字（false会做转小写处理）
 preserveTaxonomyNames = true
