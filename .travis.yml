@@ -5,6 +5,10 @@ go:
 git:
     depth: 1
 install: go get -v github.com/gohugoio/hugo
+cache:
+    directories:
+        - $HOME/.cache/go-build
+        - $HOME/gopath/pkg/mod
 script:
     - hugo
 deploy:
