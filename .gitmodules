@@ -1,6 +1,6 @@
 [submodule "themes/maupassant"]
 	path = themes/maupassant
 	url = https://github.com/flysnow-org/maupassant-hugo
-[submodule "content"]
-	path = content
+[submodule "blog-src"]
+	path = blog-src
 	url = https://github.com/dai-pch/blog-src.git
