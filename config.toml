@@ -38,9 +38,14 @@ summaryLength = 140
 ## 友情链接，可以多个
 
 [[params.links]]
-  title = "liujiazheng的博客"
-  name = "liujiazheng的博客"
+  title = "Jiazheng的博客"
+  name = "Jiazheng的博客"
   url = "https://liujiazheng.github.io/"
+
+[[params.links]]
+  title = "Changsong Zhang的博客"
+  name = "Changsong Zhang的博客"
+  url = "https://davidzhangbuaa.github.io/"
 
 ## 侧边栏广告位
 # [[params.ads]]
