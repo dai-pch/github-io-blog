@@ -8,7 +8,9 @@ install: go get -tags extended -v github.com/gohugoio/hugo
 cache:
     directories:
         - $HOME/.cache/go-build
-#         - $HOME/gopath
+        - $HOME/gopath
+before_cache:
+    - rm -f $HOME/.cache/go-build/log.txt
 script:
     - hugo
 deploy:
