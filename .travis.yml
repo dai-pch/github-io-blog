@@ -5,10 +5,12 @@ go:
 git:
     depth: false
 install: go get -tags extended -v github.com/gohugoio/hugo
-cache:
-    directories:
-        - $HOME/gopath
+# cache:
+#     directories:
+#         - $HOME/.cache/go-build
+#         - $HOME/gopath
 script:
+    - rm -r public
     - hugo
 deploy:
     provider: pages
