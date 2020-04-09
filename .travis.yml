@@ -10,7 +10,6 @@ install: go get -tags extended -v github.com/gohugoio/hugo
 #         - $HOME/.cache/go-build
 #         - $HOME/gopath
 script:
-    - rm -r public
     - hugo
 deploy:
     provider: pages

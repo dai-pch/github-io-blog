@@ -7,10 +7,10 @@ if [ $# -eq 1 ]; then
     msg="$1"
 else
     msg="Update content on `date`"
-    cd content
+    cd blog-src
     git pull
     cd ..  
-    git add content
+    git add blog-src
 fi
 
 echo $msg
