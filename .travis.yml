@@ -5,9 +5,9 @@ go:
 git:
     depth: false
 install: go get -tags extended -v github.com/gohugoio/hugo
-# cache:
-#     directories:
-#         - $HOME/.cache/go-build
+cache:
+    directories:
+        - $HOME/.cache/go-build
 #         - $HOME/gopath
 script:
     - hugo
