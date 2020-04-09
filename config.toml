@@ -24,7 +24,7 @@ summaryLength = 140
   mainSections = ["life", "tech"]
 
   # 全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能
-  toc = "hugo"  # 是否开启目录
+  toc = "tocbot"  # 是否开启目录
 
   # sidebar, copyright & license
   copyright = "daipch"
@@ -39,6 +39,11 @@ summaryLength = 140
 
   # navigation
   postNavigation = false
+
+  ## 配置 utteranc评论,教程参考 https://utteranc.es/
+  UtterancesRepo = "dai-pch/dai-pch.github.io"
+  UtterancesIssueTerm = "pathname"
+  UtterancesTheme = "github-light"
 
 ## Social Accounts
 [params.social]
@@ -71,11 +76,6 @@ summaryLength = 140
 #   title = "【2019双12】ALL IN CLoud 低至1折"
 #   url = "https://www.aliyun.com/minisite/goods?userCode=jdg9oj97&share_source=copy_link"
 #   img = "https://img.alicdn.com/tfs/TB1_rYHo7P2gK0jSZPxXXacQpXa-690-388.jpg"
-
-## 配置 utteranc评论,教程参考 https://utteranc.es/
-UtterancesRepo = "dai-pch/dai-pch.github.io"
-UtterancesIssueTerm = "pathname"
-UtterancesTheme = "github-light"
 
 ## 配置网站菜单
 
