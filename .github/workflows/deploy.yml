@@ -34,20 +34,20 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-#       - name: Cache
-#         uses: actions/cache@v2
-#         with:
-#           path: /tmp/hugo_cache
-#           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
-#           restore-keys: |
-#             ${{ runner.os }}-hugomod-
+      - name: Cache
+        uses: actions/cache@v2
+        with:
+          path: /tmp/hugo_cache
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
       
       - name: Build
         run: hugo version && hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
