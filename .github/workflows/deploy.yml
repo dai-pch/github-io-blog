@@ -43,7 +43,7 @@ jobs:
 #             ${{ runner.os }}-hugomod-
       
       - name: Build
-        run: hugo version $$ hugo
+        run: hugo version && hugo
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
